@@ -11,4 +11,10 @@
   "target_path": "vendor/motorola",
   "revision": "cm-12.0"
   }
+  {
+  "remote": "github",
+  "repository": "tri-polar/android_device_moto_shamu",
+  "target_path": "device/moto/shamu",
+  "revision": "lollipop"
+  },
 ]
