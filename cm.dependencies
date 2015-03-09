@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_kernel_moto_shamu",
-    "target_path": "kernel/moto/shamu"
+  "remote": "github",
+  "repository": "tri-polar/Shamu",
+  "target_path": "kernel/moto/shamu",
+  "revision": "lollipop"
+  },
+  {
+  "remote": "github",
+  "repository": "TheMuppets/proprietary_vendor_motorola",
+  "target_path": "vendor/motorola",
+  "revision": "cm-12.0"
   }
 ]
