@@ -1,20 +1,6 @@
 [
   {
-  "remote": "github",
-  "repository": "tri-polar/Shamu",
-  "target_path": "kernel/moto/shamu",
-  "revision": "lollipop"
-  },
-  {
-  "remote": "github",
-  "repository": "TheMuppets/proprietary_vendor_motorola",
-  "target_path": "vendor/motorola",
-  "revision": "cm-12.0"
+  "repository": "android_device_qcom_common",
+  "target_path": "device/qcom/common"
   }
-  {
-  "remote": "github",
-  "repository": "tri-polar/android_device_moto_shamu",
-  "target_path": "device/moto/shamu",
-  "revision": "lollipop"
-  },
 ]

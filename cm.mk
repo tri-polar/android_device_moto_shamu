@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 2560
 
-# Inherit some common CM stuff.
+# Inherit some common BS stuff.
 $(call inherit-product, vendor/beanstalk/config/common_full_phone.mk)
 
 # Enhanced NFC
@@ -14,6 +14,7 @@ $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 DEVICE_PACKAGE_OVERLAYS += device/moto/shamu/overlay-cm
 
 ## Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := shamu
 PRODUCT_NAME := bs_shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
