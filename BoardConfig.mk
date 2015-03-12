@@ -173,4 +173,15 @@ EXTENDED_FONT_FOOTPRINT := true
 # CMHW
 BOARD_HARDWARE_CLASS := device/moto/shamu/cmhw
 
+# Compiler flags
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := true
+KRAIT_TUNINGS := true
+STRICT_ALIASING := true
+SUPPRES_UNUSED_WARNING := true
+TARGET_GCC_VERSION_EXP := 4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.8
+TARGET_USE_PIPE := true
+USE_O3_OPTIMIZATIONS := true
+
 -include vendor/motorola/shamu/BoardConfigVendor.mk
